@@ -2,6 +2,8 @@
 
 JavaScript Quiz Project
 
+Live site URL: [https://quiel-javascript-quiz-project.netlify.app/](https://quiel-javascript-quiz-project.netlify.app/)
+
 ## Table of contents
 
 - [Overview](#overview)
