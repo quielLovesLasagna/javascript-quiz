@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- Script -->
+		<script defer src="./script.js"></script>
+		<title>notNotion - JavaScript Quiz</title>
+	</head>
+	<body>
+		<main>
+			<section class="quiz">
+				<div class="heading">
+					<p class="title">notNotion</p>
+					<p class="sub-title">JavaScript Quiz</p>
+				</div>
+
+				<div class="result hide">
+					<p class="score"></p>
+					<p class="reload">
+						<button class="try-again">Try Again?</button>
+					</p>
+				</div>
+
+				<form class="quiz-form">
+					<div class="question">
+						<p>1. What is the purpose of the "let" keyword in JavaScript?</p>
+						<div class="option">
+							<input type="radio" name="q1" value="A" checked id="q1a" />
+							<label for="q1a">A. To declare a constant variable </label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="B" id="q1b" />
+							<label for="q1b">B. To declare a block-scoped variable</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="C" id="q1c" />
+							<label for="q1c">C. To declare a global variable</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q1" value="D" id="q1d" />
+							<label for="q1d">D. To declare a function-scoped variable</label>
+						</div>
+					</div>
+
+					<div class="question">
+						<p>2. What does the "===" operator do in JavaScript?</p>
+						<div class="option">
+							<input type="radio" name="q2" value="A" checked id="q2a" />
+							<label for="q2a">A. Checks for equality in value and type</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="B" id="q2b" />
+							<label for="q2b">B. Assigns a value to a variable</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="C" id="q2c" />
+							<label for="q2c">C. Checks for equality in value only</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q2" value="D" id="q2d" />
+							<label for="q2d"
+								>D. Compares two values and ignores their types</label
+							>
+						</div>
+					</div>
+
+					<div class="question">
+						<p>
+							3. How would you add a new element at the end of an array in
+							JavaScript?
+						</p>
+						<div class="option">
+							<input type="radio" name="q3" value="A" checked id="q3a" />
+							<label for="q3a">A. array.insertLast(element)</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q3" value="B" id="q3b" />
+							<label for="q3b">B. array.push(element)</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q3" value="C" id="q3c" />
+							<label for="q3c">C. array.addToEnd(element)</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q3" value="D" id="q3d" />
+							<label for="q3d">D. array.append(element)</label>
+						</div>
+					</div>
+
+					<div class="question">
+						<p>
+							4. What is the purpose of the "querySelector" method in
+							JavaScript?
+						</p>
+						<div class="option">
+							<input type="radio" name="q4" value="A" checked id="q4a" />
+							<label for="q4a">A. To select an HTML element by its class</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q4" value="B" id="q4b" />
+							<label for="q4b">B. To select an HTML element by its ID</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q4" value="C" id="q4c" />
+							<label for="q4c"
+								>C. To select the first HTML element that matches a CSS
+								selector</label
+							>
+						</div>
+						<div class="option">
+							<input type="radio" name="q4" value="D" id="q4d" />
+							<label for="q4d"
+								>D. To select all HTML elements that match a CSS selector</label
+							>
+						</div>
+					</div>
+
+					<div class="question">
+						<p>
+							5. What does the term "callback" refer to in the context of
+							JavaScript?
+						</p>
+						<div class="option">
+							<input type="radio" name="q5" value="A" checked id="q5a" />
+							<label for="q5a"
+								>A. A function passed as an argument to another function</label
+							>
+						</div>
+						<div class="option">
+							<input type="radio" name="q5" value="B" id="q5b" />
+							<label for="q5b">B. A built-in JavaScript data type</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q5" value="C" id="q5c" />
+							<label for="q5c">C. method used for looping through arrays</label>
+						</div>
+						<div class="option">
+							<input type="radio" name="q5" value="D" id="q5d" />
+							<label for="q5d">D. A type of loop in JavaScript</label>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" value="Submit">Submit</button>
+					</div>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>
